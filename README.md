@@ -17,3 +17,9 @@ jQuery(document).on( 'nfFormReady', function() {
 
 <style>#nf-form-3-cont #nf-field-56-container { display: none }</style>
 ```
+
+The field's name can also be used instead of the Ninja Form's id.
+
+```JQuery
+jQuery('input[name=address]').val();
+```
